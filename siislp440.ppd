@@ -33,7 +33,7 @@
 *cupsLanguages: "en"
 *OpenUI *PageSize/Media Size: PickOne
 *OrderDependency: 10 AnySetup *PageSize
-*DefaultPageSize: AddressSmall
+*DefaultPageSize: 55x40mm
 *PageSize 8mmSpine/8mm Spine (SLP-27210): "<</PageSize[187 26]/ImagingBBox null>>setpagedevice"
 *PageSize 35mmSlide/35mm Slide (SLP-35L): "<</PageSize[26 104]/ImagingBBox null>>setpagedevice"
 *PageSize AddressLarge/Address - Large (SLP-2RLE): "<</PageSize[236 99]/ImagingBBox null>>setpagedevice"
@@ -59,10 +59,11 @@
 *PageSize EuroNameBadgeLarge/Euro Name Badge Large (SLP-ENTL, SLP-FCS2): "<</PageSize[223 136]/ImagingBBox null>>setpagedevice"
 *PageSize TopCoatedPaper/Topcoated Paper is 150 mm length (SLP-P150, SLP-DIA): "<</PageSize[396 136]/ImagingBBox null>>setpagedevice"
 *PageSize 4PartLabel/4-Part Label (SLP-MPL4): "<</PageSize[271 136]/ImagingBBox null>>setpagedevice"
+*PageSize 55x40mm/55x40 mm Label: "<</PageSize[155.905511811 113.385826772]/ImagingBBox null>>setpagedevice"
 *CloseUI: *PageSize
 *OpenUI *PageRegion/Media Size: PickOne
 *OrderDependency: 10 AnySetup *PageRegion
-*DefaultPageRegion: AddressSmall
+*DefaultPageRegion: 55x40mm
 *PageRegion 8mmSpine/8mm Spine (SLP-27210): "<</PageSize[187 26]/ImagingBBox null>>setpagedevice"
 *PageRegion 35mmSlide/35mm Slide (SLP-35L): "<</PageSize[26 104]/ImagingBBox null>>setpagedevice"
 *PageRegion AddressLarge/Address - Large (SLP-2RLE): "<</PageSize[236 99]/ImagingBBox null>>setpagedevice"
@@ -88,8 +89,9 @@
 *PageRegion EuroNameBadgeLarge/Euro Name Badge Large (SLP-ENTL, SLP-FCS2): "<</PageSize[223 136]/ImagingBBox null>>setpagedevice"
 *PageRegion TopCoatedPaper/Topcoated Paper is 150 mm length (SLP-P150, SLP-DIA): "<</PageSize[396 136]/ImagingBBox null>>setpagedevice"
 *PageRegion 4PartLabel/4-Part Label (SLP-MPL4): "<</PageSize[271 136]/ImagingBBox null>>setpagedevice"
+*PageRegion 55x40mm/55x40 mm Label: "<</PageSize[155.905511811 113.385826772]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
 *CloseUI: *PageRegion
-*DefaultImageableArea: AddressSmall
+*DefaultImageableArea: 55x40mm
 *ImageableArea 8mmSpine/8mm Spine (SLP-27210): "0 0 187.199996948242 25.920001983643"
 *ImageableArea 35mmSlide/35mm Slide (SLP-35L): "0 0 25.920001983643 103.68000793457"
 *ImageableArea AddressLarge/Address - Large (SLP-2RLE): "0 0 236.160003662109 98.639999389648"
@@ -115,7 +117,8 @@
 *ImageableArea EuroNameBadgeLarge/Euro Name Badge Large (SLP-ENTL, SLP-FCS2): "0 0 223.199996948242 136.223999023438"
 *ImageableArea TopCoatedPaper/Topcoated Paper is 150 mm length (SLP-P150, SLP-DIA): "0 0 396 136.223999023438"
 *ImageableArea 4PartLabel/4-Part Label (SLP-MPL4): "0 0 271.440002441406 136.080001831055"
-*DefaultPaperDimension: AddressSmall
+*ImageableArea 55x40mm/55x40 mm Label: "0 0 155.905511811, 100"
+*DefaultPaperDimension: 55x40mm
 *PaperDimension 8mmSpine/8mm Spine (SLP-27210): "187.199996948242 25.920001983643"
 *PaperDimension 35mmSlide/35mm Slide (SLP-35L): "25.920001983643 103.68000793457"
 *PaperDimension AddressLarge/Address - Large (SLP-2RLE): "236.160003662109 98.639999389648"
@@ -141,6 +144,7 @@
 *PaperDimension EuroNameBadgeLarge/Euro Name Badge Large (SLP-ENTL, SLP-FCS2): "223.199996948242 136.223999023438"
 *PaperDimension TopCoatedPaper/Topcoated Paper is 150 mm length (SLP-P150, SLP-DIA): "396 136.223999023438"
 *PaperDimension 4PartLabel/4-Part Label (SLP-MPL4): "271.440002441406 136.080001831055"
+*PaperDimension 55x40mm/55x40 mm Label: "155.905511811 113.385826772"
 *MaxMediaWidth: "526.320007324219"
 *MaxMediaHeight: "136.223999023438"
 *HWMargins: 0 0 0 0
